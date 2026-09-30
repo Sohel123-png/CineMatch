@@ -1,0 +1,59 @@
+# ==============================
+# Node / Next.js
+# ==============================
+node_modules/
+.next/
+out/
+dist/
+
+# ==============================
+# Python
+# ==============================
+venv/
+__pycache__/
+*.pyc
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# ==============================
+# ML / Generated Artifacts
+# ==============================
+backend/artifacts/nn_model.pkl
+backend/artifacts/vectors.pkl
+data/*.csv
+
+# ==============================
+# IDE / Editor
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Logs / OS
+# ==============================
+*.log
+.DS_Store
+Thumbs.db
+
+node_modules/
+.next/
+out/
+dist/
+
+.env
+.env.local
+.env.production
+
+__pycache__/
+*.pyc
+
+*.log
+*.csv
+*.zip
