@@ -48,7 +48,7 @@ app = FastAPI(title="Movie Recommender API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # open for public API / frontend deployment
+    allow_origins=[os.getenv("FRONTEND_URL", "*")],
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
