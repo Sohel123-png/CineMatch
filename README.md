@@ -23,20 +23,26 @@
 [Setup](#setup) •
 [Limitations](#limitations)
 
+![CineMatch overview](assets/screenshots/00-overview-1.png)
+
 </div>
 
 ---
 
-<!--
-Add screenshots here once you have them, then remove these comment markers:
-
-![CineMatch overview](assets/screenshots/00-overview.png)
-
 ## Screenshots
+
+**Hero banner and search**
+
 ![Home and hero banner](assets/screenshots/01-home.png)
-![Search and recommendations](assets/screenshots/02-recommendations.png)
-![Movie detail modal](assets/screenshots/03-modal.png)
-![Discover by genre](assets/screenshots/04-discover.png)
+
+**Carousels and My List**
+
+![Carousels and My List](assets/screenshots/02-rows-my-list.png)
+
+<!-- Add more screenshots here, for example:
+![Search and recommendations](assets/screenshots/03-recommendations.png)
+![Movie detail modal](assets/screenshots/04-modal.png)
+![Discover by genre](assets/screenshots/05-discover.png)
 -->
 
 ## Features
@@ -229,6 +235,10 @@ vectorizer = TfidfVectorizer(max_features=5000, stop_words="english")
 ## Author
 
 **Sohel Ali**: [GitHub](https://github.com/Sohel123-png) · [LinkedIn](https://www.linkedin.com/in/sohel-ali-6435253a8/) · sayyedsohelali448@gmail.com
+
+## Credits
+
+This product uses the TMDB API but is not endorsed or certified by TMDB. Movie metadata and images are provided by [TMDB](https://www.themoviedb.org/). The recommendation model is trained on the TMDB 5000 Movie Dataset from Kaggle.
 
 ## License
 
